@@ -1,0 +1,109 @@
+*{
+  margin: 0mm;
+  box-sizing: border-box;
+}
+a:link{
+  color: green;
+  text-decoration: none;
+}
+a:hover{
+  background: lightslategrey;
+}
+a:visited{
+  color: green;
+}
+a:active{
+  color: rgb(2, 37, 2);
+}
+
+.homepage{
+  background-image: url(/project1/Images/img2.jpg);
+  background-size:100%; 
+  background-position-y: 0cm;
+  background-position-x: 0mm;
+  background-repeat: no-repeat;
+  margin: 0px;
+  height: 59.5rem;
+}
+#top{
+  width: 100%;
+  height: 4em;
+  background: rgba(3, 3, 8, 0.966);
+  
+  display: inline-block;
+  position: fixed;
+  z-index: 1;
+}
+#menu{
+  text-align: center;
+  padding-top: 0.5em;
+
+  font-size: 25px;
+  color: rgba(70, 173, 28, 0.89); 
+  opacity: 1;
+}
+
+
+
+#name{
+  
+  font-size: 70px;
+  color: rgb(245, 239, 235);
+  text-align: center;
+  padding-top: 22%;
+}
+.name{
+  height: 100%;
+  
+}
+#dp{
+  
+  display: inline-block;
+  height: 800px;
+  width: 35%;
+}
+#pic{
+  border-radius: 50%;
+}
+.about{
+  display:inline-block;
+  
+  height: 800px;
+  width: 65%;
+  float:right;
+  font-size: 30px;
+}
+#about{
+  height: 500px;
+  position: relative;
+  top: 4em;
+  left: 4em;
+  
+  width: 80%;
+}
+#one{
+  text-align: center;
+}
+#button{
+  background-color: rgb(71, 70, 70);
+  color: aliceblue;
+  display: inline-block;
+  position: fixed;
+  bottom: 4em;
+  left: 50%;
+  padding: 1em;
+  border-radius: 20%;
+
+}
+button{
+  background-color: rgb(82, 44, 44);
+  color: aliceblue;
+  display: inline-block;
+  position: fixed;
+  bottom: 2em;
+  left: 50%;
+  padding: 1em;
+  border-radius: 20%;
+.resume{
+  height: 20em;
+}
